@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The decline of allotment gardens in Germany</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+        margin: 0;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-rendering: optimizeLegibility;
+        background-color: #ccffcc;
+        }
+
+    .content {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .header {
+      padding: 3em 0;
+    }
+
+    a {
+      color: #066f13;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.8em;
+      margin-top: 4em;
+      padding: 4em 0;
+      background-color: #ccffcc
+    }
+
+    figure {
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 0.5em;
+      color: #666;
+    }
+
+    h1 {
+      font-family: 'Lora', Georgia, serif;
+      font-weight: bold;
+      font-size: 3em;
+      line-height: 1.1;
+    }
+
+    .subhead {
+      font-family: 'Lora', Georgia, serif;
+    }
+
+    iframe,
+    img,
+    video {
+      max-width: 100%;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 0;
+      padding-bottom: 1.2em;
+    }
+
+    ul {
+      margin: 0;
+      padding-bottom: 1em;
+      line-height: 1.6;
+    }
+
+    iframe {
+      padding-bottom: 1.2em;
+    }
+
+    .full-width figure {
+      text-align: center;
+    }
+
+    code {
+      font-family: 'Courier New', monospace;
+      background: #fff880;
+    }
+
+    /* margin on mobile */
+    @media (max-width: 640px) {
+      body {
+        font-size: 18px;
+      }
+
+      .content {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
+    }
+  </style>
+  <style>
+        .with-image-bg,
+        .with-video-bg {
+            position: relative;
+            background-size: cover;
+            margin-bottom: 2em;
+
+            /* Center everything inside */
+            min-height: 70svh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* White text with a shadow */
+            color: white;
+            text-shadow: 0px 0px 30px black,
+                0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .with-image-bg {
+            background-image: url('IMG_0972.jpg');
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .video-background video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+  <link href="scrolly-styles.css" rel="stylesheet">
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+</head>
+
+<body>
+  <body>
+    <div class="header with-image-bg">
+        <div class="content">
+            <h1>Allotment gardens in Germany: Disappearance of a modern utopia</h1>
+            <p class="subhead">'Schrebergärten', rental gardens in Germany, are meant to provide affordable gardening spaces to those in need. But they are disappearing - despite heightened interest by young people in bigger cities.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="byline">
+            <p>By Hanna Sellheim</p>
+        </div>
+        <p>As a child, I had a friend whose family owned a 'Schrebergarten', a small garden they rented close to their home, an apartment in one of the biggest cities in Germany. We would spend hours there, playing, making up stories about living on a farm. Although the garden was located in the middle of our borough, next to a busy street, it seemed like we were in our own world.</p>
+        <p>All over Europe, Germany has by far the most allotment gardens. Historically, 'Schrebergärten' or 'Kleingärten' have served mainly three functions:</p>
+        <div>
+          <ul>
+              <li>Providing gardening spaces to those in need by offering them at an affordable rate.</li>
+              <li>Adding green spaces for leisure and education to cities and hence, improving quality of life and having a positive environmental impact.</li>
+              <li>Building communities.</li>
+          </ul>
+        </div>
+        <p><a href="https://politikkultur.de/schwerpunkte/kulturelles-phaenomen-schrebergaerten/">According to Caterina Paetzelt, head of the German 'Kleingartenmuseum',</a> during times of crises, more allotment garden associations have been founded, as they provided spaces for self-sufficiency.</p>
+        <p>However, that doesn't seem to be the case anymore.</p>
+        <p>Severe housing shortage has caused many of the garden areas to be torn down to build new housing units. But that is not the only reason for demolition, as examples from the past months show:</p>
+        <figure>
+            <img
+                src="Demolitions.png">
+        </figure>
+        <p>A look at the number of members at Germany's biggest allotment garden society, the Bundesverband der Kleingartenvereine Deutschlands e.V. (BKD), shows a constant decline for years. The only exception: a stabilization shortly after the Covid pandemic when lockdowns were restricting public life and <a href="https://www.spiegel.de/reise/schrebergarten-mieten-warum-junge-leute-jetzt-in-kleingaerten-stroemen-a-aa03be8b-2213-4982-bd0f-6fe71bdff3e7resurged"> resurging a longing for private green spaces.</a></p>
+        <iframe title="Number of members at Germany's biggest allotment garden association decreases" aria-label="Lines" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/Vm6ZG/2/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+        <p>Reasons for garden demolitions are mostly either construction work or vacancies, says Sandra von Rekowski, a spokesperson for the BKD. There seems to be an ambivalent trend unfolding.</p>
+  </div>
+  <section id="scrolly-images" class="scrolly-container">
+    <div class="sticky-thing">
+      <img src="IMG_0975.jpg">
+    </div>
+    <div class="steps-container">
+      <div class="step" id="step1">
+        <div>
+          <p>In the countryside, especially the East, more and more allotment gardens stay empty.</p>
+        </div>
+      </div>
+      <div class="step" id="step2">
+        <p><a href="https://www.bbsr.bund.de/BBSR/DE/veroeffentlichungen/sonderveroeffentlichungen/2019/kleingaerten-im-wandel.html">A study by the national institute for contruction, city and space research</a> shows the number of vacant lots grew from 35,000 in 2013 to 65,000 in 2019 - half of them located in the eastern state of Sachsen-Anhalt alone.</p>
+      </div>
+      <div class="step" id="step3">
+        <p>On the contrary, the demand for rental gardens in Germany's bigger cities is high. According to the same study, 3500 to 4000 rental gardens are lacking in Hamburg.</p>
+      </div>
+      <div class="step" id="step4">
+        <p>In some associations in Berlin, <a href="https://www.charlottenburger-kleingartenverband.de/">waiting times for a gardening unit can be as long as 10 years.</a></p>
+      </div>
+    </div>
+  </section>
+  <div class="content">
+        <p>Allotment gardens used to have an image of being utterly middle-class, their associations full of people who really, really cared about things such as the correct height of a hedge. But an increasingly unaffordable housing market has made allotment garden more attractive for younger people. Getting together with a group of friends and sharing the cost and responsibility for the garden has become a trend.</p>
+        <p>This shows in the data available on the average age of allotment garden users: They are younger than they used to be.</p>
+        <iframe title="Allotment garden users are becoming younger" aria-label="Bar Chart" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/ZHA3g/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+        <p>But: accessibility varies highly across the country.</p>
+        <p>Looking at the number of allotment gardener users compared to the population, it becomes obvious that the density is much higher in the former GDR. This can be understood as a result of the GDR‘s (albeit failed) socialist agenda.</p>
+        <iframe title="More allotment gardens in the former GDR and in big cities in the West" aria-label="Choropleth map" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/WEyGE/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+        <p>If we compare this to a map of German states and their average annual income, we can see: The states with lower income also are the ones with most allotment gardens, suggesting the original idea of providing rental garden units to people unable to afford houses with private garden has generally been successful.</p>
+        <iframe title="Average income in Germany's states mirrors allotment garden distribution" aria-label="Choropleth map" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/hH0UQ/2/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+        <p>When looking at the biggest cities in Germany, the unequal distribution becomes even more obvious: Leipzip and Dresden, cities in the East, offer about ten times as many rental gardens per 100 inhabitants as the Southern cities of Munich and Stuttgart.</p>
+        <iframe title="Of the biggest cities in Germany, only one has more than 5 allotment gardens per 100 inhabitants" aria-label="Table" id="datawrapper-chart-MLQxw"
+            src="https://datawrapper.dwcdn.net/w7nGo/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+        <p>So, is the utopian vision of a country where everybody has access to gardening units at an affordable rent forgotten amidst housing, security and climate crises? Not entirely, it seems. Some cities have started to take action against this trend: <a href="https://www.rbb24.de/politik/beitrag/2025/03/berlin-kleingarten-regeln-gesetz-parzellen-schutz-schrebergarten-senat.html ">Berlin is working on a law that will protect its allotment gardens.</a></p>
+  </div>
+
+  <script>
+    /*************
+    
+    This is the JavaScript that makes the scrolly work 
+    
+    *************/
+
+    /* 
+    This part attaches a scroll to the element with id="scrolly-images"    
+    */
+    (() => {
+      const scroller = scrollama()
+
+      scroller
+        .setup({
+          parent: document.querySelector("#scrolly-images"),
+          step: ".step",
+          offset: 0.6,
+        })
+        .onStepEnter(function ({ element, index, direction }) {
+          const event = new CustomEvent("stepin", { detail: { direction: direction } })
+          element.dispatchEvent(event)
+        })
+        .onStepExit(function ({ element, index, direction }) {
+          const event = new CustomEvent("stepout", { detail: { direction: direction } })
+          if (direction === "up" && element.previousElementSibling) {
+            const event = new CustomEvent("stepin", { detail: { direction: direction } })
+            element.previousElementSibling.dispatchEvent(event)
+          }
+        })
+
+      window.addEventListener("resize", scroller.resize)
+    })()
+
+    /*
+    This part sets up your actions. In this case, it's changing the image in the scrolly container.
+    */
+    d3.select("#step1").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "IMG_0975.jpg")
+    })
+
+    d3.select("#step2").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "IMG_0976.jpg")
+    })
+
+    d3.select("#step3").on('stepin', (e) => {
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "IMG_0978.jpg")
+    })
+  </script>
+  <style>
+    /* Change this to adjust the padding between steps */
+    .step {
+      margin-bottom: 70vh;
+    }
+  </style>
+</body>
+
+</html>
