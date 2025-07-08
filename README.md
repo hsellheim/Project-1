@@ -19,7 +19,7 @@ Sources I used:<br>
 <li>https://www1.wdr.de/nachrichten/ruhrgebiet/abriss-kleingaerten-duisburg-a59-100.html </li>
 <li>https://www.ln-online.de/lokales/luebeck/kleingartengelaende-buntekuh-in-luebeck-was-hinter-dem-blickdichten-zaun-passiert-2W4ZR5XEBBCZHOGZ62GQQ5C3DA.html </li>
 <li>https://www.suedkurier.de/region/hochrhein/bad-saeckingen/gettnauer-boden-raeumung-der-kleingartenanlage-steht-bevor;art372588,12265042#:~:text=Die%20Kleing%C3%A4rtner%20m%C3%BCssen%20ihre%20G%C3%A4rten%20bis%20zum,Boden%20in%20Bad%20S%C3%A4ckingen%20ist%20bereits%20vorbereitet. </li>
-<li>https://www.abendblatt.de/hamburg/eimsbuettel/article408486449/</li>kleingarten-hamburg-siedlung-in-stellingen-abgerissen-was-dort-jetzt-passiert.html </li>
+<li>https://www.abendblatt.de/hamburg/eimsbuettel/article408486449/kleingarten-hamburg-siedlung-in-stellingen-abgerissen-was-dort-jetzt-passiert.html </li>
 <li>https://www.abendblatt.de/hamburg/bergedorf/article408291007/abriss-fuer-innovationspark.html </li>
 </ul>
 <br>
