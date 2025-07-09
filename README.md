@@ -21,6 +21,8 @@ Sources I used:<br>
 <li>https://www.suedkurier.de/region/hochrhein/bad-saeckingen/gettnauer-boden-raeumung-der-kleingartenanlage-steht-bevor;art372588,12265042#:~:text=Die%20Kleing%C3%A4rtner%20m%C3%BCssen%20ihre%20G%C3%A4rten%20bis%20zum,Boden%20in%20Bad%20S%C3%A4ckingen%20ist%20bereits%20vorbereitet. </li>
 <li>https://www.abendblatt.de/hamburg/eimsbuettel/article408486449/kleingarten-hamburg-siedlung-in-stellingen-abgerissen-was-dort-jetzt-passiert.html </li>
 <li>https://www.abendblatt.de/hamburg/bergedorf/article408291007/abriss-fuer-innovationspark.html </li>
+<li>https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/bevoelkerung-nichtdeutsch-laender-basis-2022.html?templateQueryString=bev%C3%B6lkerung+bundesl%C3%A4nder</li>
+<li>https://www.statistikportal.de/de/vgrdl/ergebnisse-laenderebene/einkommen/ane#9559</li>
 </ul>
 <br>
 I used many small data sets so the main work was cleaning and combining them. I compared them to factors such as income and population to show social and historical connection and context.<br>
